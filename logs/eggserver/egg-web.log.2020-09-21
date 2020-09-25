@@ -1,0 +1,161 @@
+2020-09-21 00:00:01,427 INFO 14696 [egg-logrotator] app logger reload: got log-reload message
+2020-09-21 04:29:59,984 INFO 14696 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggserver"
+2020-09-21 04:29:59,998 INFO 14696 [-/127.0.0.1/-/18ms SCHEDULE /__schedule?path=D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-09-21 08:17:08,739 WARN 14696 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-21 09:01:44,427 INFO 8808 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-21 09:01:44,480 INFO 8808 [egg-multipart] stream mode enable
+2020-09-21 09:01:44,480 INFO 8808 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-09-21 09:01:44,767 INFO 8808 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-09-21 09:01:44,770 INFO 8808 [egg-security] use methodnoallow middleware
+2020-09-21 09:01:44,771 INFO 8808 [egg-security] use noopen middleware
+2020-09-21 09:01:44,772 INFO 8808 [egg-security] use nosniff middleware
+2020-09-21 09:01:44,773 INFO 8808 [egg-security] use xssProtection middleware
+2020-09-21 09:01:44,775 INFO 8808 [egg-security] use xframe middleware
+2020-09-21 09:01:44,776 INFO 8808 [egg-security] use dta middleware
+2020-09-21 09:01:44,777 INFO 8808 [egg-security] compose 6 middlewares into one security middleware
+2020-09-21 09:01:44,810 INFO 8808 [egg:core] dump config after load, 9ms
+2020-09-21 09:01:44,834 INFO 8808 [egg-watcher:application] watcher start success
+2020-09-21 09:01:44,870 INFO 8808 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 21 2020 09:01:44 GMT+0800 (GMT+08:00)
+2020-09-21 09:01:44,883 INFO 8808 [egg:core] dump config after ready, 10ms
+2020-09-21 09:01:45,528 INFO 992 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-21 09:01:45,579 INFO 992 [egg-multipart] stream mode enable
+2020-09-21 09:01:45,580 INFO 992 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-09-21 09:01:45,846 INFO 992 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-09-21 09:01:45,849 INFO 992 [egg-security] use methodnoallow middleware
+2020-09-21 09:01:45,849 INFO 992 [egg-security] use noopen middleware
+2020-09-21 09:01:45,850 INFO 992 [egg-security] use nosniff middleware
+2020-09-21 09:01:45,851 INFO 992 [egg-security] use xssProtection middleware
+2020-09-21 09:01:45,852 INFO 992 [egg-security] use xframe middleware
+2020-09-21 09:01:45,853 INFO 992 [egg-security] use dta middleware
+2020-09-21 09:01:45,853 INFO 992 [egg-security] compose 6 middlewares into one security middleware
+2020-09-21 09:01:45,888 INFO 992 [egg:core] dump config after load, 9ms
+2020-09-21 09:01:45,909 INFO 992 [egg-watcher:application] watcher start success
+2020-09-21 09:01:45,913 INFO 992 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 21 2020 09:01:45 GMT+0800 (GMT+08:00)
+2020-09-21 09:01:45,921 INFO 992 [egg:core] dump config after ready, 6ms
+2020-09-21 09:01:46,775 INFO 14828 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-21 09:01:46,807 INFO 14828 [egg-multipart] stream mode enable
+2020-09-21 09:01:46,808 INFO 14828 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-09-21 09:01:47,022 INFO 14828 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-09-21 09:01:47,024 INFO 14828 [egg-security] use methodnoallow middleware
+2020-09-21 09:01:47,025 INFO 14828 [egg-security] use noopen middleware
+2020-09-21 09:01:47,026 INFO 14828 [egg-security] use nosniff middleware
+2020-09-21 09:01:47,026 INFO 14828 [egg-security] use xssProtection middleware
+2020-09-21 09:01:47,027 INFO 14828 [egg-security] use xframe middleware
+2020-09-21 09:01:47,027 INFO 14828 [egg-security] use dta middleware
+2020-09-21 09:01:47,027 INFO 14828 [egg-security] compose 6 middlewares into one security middleware
+2020-09-21 09:01:47,047 INFO 14828 [egg:core] dump config after load, 5ms
+2020-09-21 09:01:47,067 INFO 14828 [egg-watcher:application] watcher start success
+2020-09-21 09:01:47,070 INFO 14828 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 21 2020 09:01:47 GMT+0800 (GMT+08:00)
+2020-09-21 09:01:47,079 INFO 14828 [egg:core] dump config after ready, 7ms
+2020-09-21 12:49:34,987 WARN 14828 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-21 13:04:31,034 INFO 388 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-21 13:04:31,101 INFO 388 [egg-multipart] stream mode enable
+2020-09-21 13:04:31,102 INFO 388 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-09-21 13:04:31,480 INFO 388 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-09-21 13:04:31,483 INFO 388 [egg-security] use methodnoallow middleware
+2020-09-21 13:04:31,484 INFO 388 [egg-security] use noopen middleware
+2020-09-21 13:04:31,485 INFO 388 [egg-security] use nosniff middleware
+2020-09-21 13:04:31,486 INFO 388 [egg-security] use xssProtection middleware
+2020-09-21 13:04:31,487 INFO 388 [egg-security] use xframe middleware
+2020-09-21 13:04:31,488 INFO 388 [egg-security] use dta middleware
+2020-09-21 13:04:31,488 INFO 388 [egg-security] compose 6 middlewares into one security middleware
+2020-09-21 13:04:31,521 INFO 388 [egg:core] dump config after load, 11ms
+2020-09-21 13:04:31,551 INFO 388 [egg-watcher:application] watcher start success
+2020-09-21 13:04:31,556 INFO 388 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 21 2020 13:04:31 GMT+0800 (GMT+08:00)
+2020-09-21 13:04:31,571 INFO 388 [egg:core] dump config after ready, 10ms
+2020-09-21 13:04:35,203 INFO 11872 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-21 13:04:35,351 INFO 11872 [egg-multipart] stream mode enable
+2020-09-21 13:04:35,351 INFO 11872 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-09-21 13:04:35,906 INFO 11872 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-09-21 13:04:35,921 INFO 11872 [egg-security] use methodnoallow middleware
+2020-09-21 13:04:35,922 INFO 11872 [egg-security] use noopen middleware
+2020-09-21 13:04:35,926 INFO 11872 [egg-security] use nosniff middleware
+2020-09-21 13:04:35,927 INFO 11872 [egg-security] use xssProtection middleware
+2020-09-21 13:04:35,928 INFO 11872 [egg-security] use xframe middleware
+2020-09-21 13:04:35,931 INFO 11872 [egg-security] use dta middleware
+2020-09-21 13:04:35,932 INFO 11872 [egg-security] compose 6 middlewares into one security middleware
+2020-09-21 13:04:35,977 INFO 11872 [egg:core] dump config after load, 11ms
+2020-09-21 13:04:36,022 INFO 11872 [egg-watcher:application] watcher start success
+2020-09-21 13:04:36,028 INFO 11872 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 21 2020 13:04:36 GMT+0800 (GMT+08:00)
+2020-09-21 13:04:36,044 INFO 11872 [egg:core] dump config after ready, 12ms
+2020-09-21 13:08:40,133 INFO 6012 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-21 13:08:40,173 INFO 6012 [egg-multipart] stream mode enable
+2020-09-21 13:08:40,174 INFO 6012 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-09-21 13:08:40,421 INFO 6012 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-09-21 13:08:40,424 INFO 6012 [egg-security] use methodnoallow middleware
+2020-09-21 13:08:40,425 INFO 6012 [egg-security] use noopen middleware
+2020-09-21 13:08:40,426 INFO 6012 [egg-security] use nosniff middleware
+2020-09-21 13:08:40,427 INFO 6012 [egg-security] use xssProtection middleware
+2020-09-21 13:08:40,427 INFO 6012 [egg-security] use xframe middleware
+2020-09-21 13:08:40,428 INFO 6012 [egg-security] use dta middleware
+2020-09-21 13:08:40,428 INFO 6012 [egg-security] compose 6 middlewares into one security middleware
+2020-09-21 13:08:40,451 INFO 6012 [egg:core] dump config after load, 6ms
+2020-09-21 13:08:40,473 INFO 6012 [egg-watcher:application] watcher start success
+2020-09-21 13:08:40,477 INFO 6012 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 21 2020 13:08:40 GMT+0800 (GMT+08:00)
+2020-09-21 13:08:40,488 INFO 6012 [egg:core] dump config after ready, 9ms
+2020-09-21 13:13:51,561 INFO 7504 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-21 13:13:51,597 INFO 7504 [egg-multipart] stream mode enable
+2020-09-21 13:13:51,598 INFO 7504 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-09-21 13:13:51,819 INFO 7504 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-09-21 13:13:51,822 INFO 7504 [egg-security] use methodnoallow middleware
+2020-09-21 13:13:51,823 INFO 7504 [egg-security] use noopen middleware
+2020-09-21 13:13:51,823 INFO 7504 [egg-security] use nosniff middleware
+2020-09-21 13:13:51,824 INFO 7504 [egg-security] use xssProtection middleware
+2020-09-21 13:13:51,825 INFO 7504 [egg-security] use xframe middleware
+2020-09-21 13:13:51,825 INFO 7504 [egg-security] use dta middleware
+2020-09-21 13:13:51,825 INFO 7504 [egg-security] compose 6 middlewares into one security middleware
+2020-09-21 13:13:51,847 INFO 7504 [egg:core] dump config after load, 6ms
+2020-09-21 13:13:51,866 INFO 7504 [egg-watcher:application] watcher start success
+2020-09-21 13:13:51,869 INFO 7504 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 21 2020 13:13:51 GMT+0800 (GMT+08:00)
+2020-09-21 13:13:51,879 INFO 7504 [egg:core] dump config after ready, 8ms
+2020-09-21 13:14:02,271 INFO 288 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-21 13:14:02,305 INFO 288 [egg-multipart] stream mode enable
+2020-09-21 13:14:02,306 INFO 288 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-09-21 13:14:02,521 INFO 288 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-09-21 13:14:02,524 INFO 288 [egg-security] use methodnoallow middleware
+2020-09-21 13:14:02,525 INFO 288 [egg-security] use noopen middleware
+2020-09-21 13:14:02,526 INFO 288 [egg-security] use nosniff middleware
+2020-09-21 13:14:02,526 INFO 288 [egg-security] use xssProtection middleware
+2020-09-21 13:14:02,527 INFO 288 [egg-security] use xframe middleware
+2020-09-21 13:14:02,528 INFO 288 [egg-security] use dta middleware
+2020-09-21 13:14:02,528 INFO 288 [egg-security] compose 6 middlewares into one security middleware
+2020-09-21 13:14:02,548 INFO 288 [egg:core] dump config after load, 5ms
+2020-09-21 13:14:02,567 INFO 288 [egg-watcher:application] watcher start success
+2020-09-21 13:14:02,570 INFO 288 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 21 2020 13:14:02 GMT+0800 (GMT+08:00)
+2020-09-21 13:14:02,579 INFO 288 [egg:core] dump config after ready, 7ms
+2020-09-21 13:14:49,684 INFO 11792 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-21 13:14:49,724 INFO 11792 [egg-multipart] stream mode enable
+2020-09-21 13:14:49,725 INFO 11792 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-09-21 13:14:49,952 INFO 11792 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-09-21 13:14:49,955 INFO 11792 [egg-security] use methodnoallow middleware
+2020-09-21 13:14:49,955 INFO 11792 [egg-security] use noopen middleware
+2020-09-21 13:14:49,956 INFO 11792 [egg-security] use nosniff middleware
+2020-09-21 13:14:49,957 INFO 11792 [egg-security] use xssProtection middleware
+2020-09-21 13:14:49,957 INFO 11792 [egg-security] use xframe middleware
+2020-09-21 13:14:49,958 INFO 11792 [egg-security] use dta middleware
+2020-09-21 13:14:49,958 INFO 11792 [egg-security] compose 6 middlewares into one security middleware
+2020-09-21 13:14:49,980 INFO 11792 [egg:core] dump config after load, 6ms
+2020-09-21 13:14:50,002 INFO 11792 [egg-watcher:application] watcher start success
+2020-09-21 13:14:50,004 INFO 11792 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 21 2020 13:14:49 GMT+0800 (GMT+08:00)
+2020-09-21 13:14:50,013 INFO 11792 [egg:core] dump config after ready, 7ms
+2020-09-21 13:15:48,343 INFO 11400 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-21 13:15:48,377 INFO 11400 [egg-multipart] stream mode enable
+2020-09-21 13:15:48,378 INFO 11400 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-09-21 13:15:48,617 INFO 11400 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-09-21 13:15:48,620 INFO 11400 [egg-security] use methodnoallow middleware
+2020-09-21 13:15:48,620 INFO 11400 [egg-security] use noopen middleware
+2020-09-21 13:15:48,621 INFO 11400 [egg-security] use nosniff middleware
+2020-09-21 13:15:48,622 INFO 11400 [egg-security] use xssProtection middleware
+2020-09-21 13:15:48,623 INFO 11400 [egg-security] use xframe middleware
+2020-09-21 13:15:48,623 INFO 11400 [egg-security] use dta middleware
+2020-09-21 13:15:48,623 INFO 11400 [egg-security] compose 6 middlewares into one security middleware
+2020-09-21 13:15:48,644 INFO 11400 [egg:core] dump config after load, 5ms
+2020-09-21 13:15:48,663 INFO 11400 [egg-watcher:application] watcher start success
+2020-09-21 13:15:48,667 INFO 11400 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 21 2020 13:15:48 GMT+0800 (GMT+08:00)
+2020-09-21 13:15:48,675 INFO 11400 [egg:core] dump config after ready, 6ms
+2020-09-21 23:58:06,424 WARN 11400 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-22 00:03:30,010 WARN 11400 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-22 00:03:30,268 INFO 11400 [egg-logrotator] start remove D:\energy-platform-project\energy-platform-server\logs\eggserver files: common-error.log.2020-08-20, egg-agent.log.2020-08-20, egg-schedule.log.2020-08-20, egg-web.log.2020-08-20, eggserver-web.log.2020-08-20
+2020-09-22 00:03:32,308 INFO 11400 [egg-logrotator] clean all log before 31 days
+2020-09-22 00:03:32,314 INFO 11400 [egg-logrotator] broadcast log-reload
+2020-09-22 00:03:32,315 INFO 11400 [egg-logrotator] rotate files success by DayRotator, files ["D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\common-error.log -> D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\common-error.log.2020-09-21","D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\eggserver-web.log -> D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\eggserver-web.log.2020-09-21","D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-web.log -> D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-web.log.2020-09-21","D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-schedule.log -> D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-schedule.log.2020-09-21","D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-agent.log -> D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-agent.log.2020-09-21"]

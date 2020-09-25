@@ -1,0 +1,60 @@
+2020-09-22 14:04:23,286 ERROR 11568 [-/127.0.0.1/-/27ms POST /dashboard/info] nodejs.ReferenceError: ctx is not defined
+    at DashboardService.getInfo (D:\energy-platform-project\energy-platform-server\app\service\dashboard.js:9:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DashboardController.dashboard (D:\energy-platform-project\energy-platform-server\app\controller\dashboard.js:6:18)
+    at async errorHandler (D:\energy-platform-project\energy-platform-server\app\middleware\error_handler.js:4:9)
+    at async params (D:\energy-platform-project\energy-platform-server\app\middleware\params.js:7:7)
+    at async D:\energy-platform-project\energy-platform-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 11568
+hostname: J9MO9BU01VTBF92
+
+2020-09-22 14:21:09,972 ERROR 13292 [-/127.0.0.1/-/105ms POST /dashboard/info] nodejs.TypeError: Cannot create property 'p' on number '0'
+    at D:\energy-platform-project\energy-platform-server\app\service\dashboard.js:12:48
+    at Array.reduce (<anonymous>)
+    at DashboardService.getInfo (D:\energy-platform-project\energy-platform-server\app\service\dashboard.js:11:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DashboardController.dashboard (D:\energy-platform-project\energy-platform-server\app\controller\dashboard.js:6:18)
+    at async errorHandler (D:\energy-platform-project\energy-platform-server\app\middleware\error_handler.js:4:9)
+    at async params (D:\energy-platform-project\energy-platform-server\app\middleware\params.js:7:7)
+    at async D:\energy-platform-project\energy-platform-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 13292
+hostname: J9MO9BU01VTBF92
+
+2020-09-22 14:21:31,728 ERROR 13292 [-/127.0.0.1/-/42ms POST /dashboard/info] nodejs.TypeError: Cannot create property 'p' on number '0'
+    at D:\energy-platform-project\energy-platform-server\app\service\dashboard.js:12:48
+    at Array.reduce (<anonymous>)
+    at DashboardService.getInfo (D:\energy-platform-project\energy-platform-server\app\service\dashboard.js:11:28)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DashboardController.dashboard (D:\energy-platform-project\energy-platform-server\app\controller\dashboard.js:6:18)
+    at async errorHandler (D:\energy-platform-project\energy-platform-server\app\middleware\error_handler.js:4:9)
+    at async params (D:\energy-platform-project\energy-platform-server\app\middleware\params.js:7:7)
+    at async D:\energy-platform-project\energy-platform-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 13292
+hostname: J9MO9BU01VTBF92
+
+2020-09-22 14:27:34,001 ERROR 2300 [-/127.0.0.1/-/45ms POST /dashboard/info] nodejs.TypeError: Cannot create property 'p' on number '57'
+    at Ice.reduce.device (D:\energy-platform-project\energy-platform-server\app\service\dashboard.js:12:51)
+    at Array.reduce (<anonymous>)
+    at DashboardService.getInfo (D:\energy-platform-project\energy-platform-server\app\service\dashboard.js:11:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DashboardController.dashboard (D:\energy-platform-project\energy-platform-server\app\controller\dashboard.js:6:18)
+    at async errorHandler (D:\energy-platform-project\energy-platform-server\app\middleware\error_handler.js:4:9)
+    at async params (D:\energy-platform-project\energy-platform-server\app\middleware\params.js:7:7)
+    at async D:\energy-platform-project\energy-platform-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+
+pid: 2300
+hostname: J9MO9BU01VTBF92
+

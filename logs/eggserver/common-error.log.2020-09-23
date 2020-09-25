@@ -1,0 +1,75 @@
+2020-09-23 08:29:06,910 ERROR 4724 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4724
+hostname: J9MO9BU01VTBF92
+
+2020-09-23 12:53:45,762 ERROR 4724 nodejs.ClusterClientNoResponseError: client no response in 2762123ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 4724
+hostname: J9MO9BU01VTBF92
+
+2020-09-23 14:02:33,800 ERROR 4724 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4724
+hostname: J9MO9BU01VTBF92
+
+2020-09-23 14:19:06,691 ERROR 15464 [-/127.0.0.1/-/33ms POST /user/getPassByMail] nodejs.ReferenceError: list is not defined
+    at UsreController.updatePassByMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:247:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async errorHandler (D:\energy-platform-project\energy-platform-server\app\middleware\error_handler.js:4:9)
+    at async params (D:\energy-platform-project\energy-platform-server\app\middleware\params.js:7:7)
+    at async D:\energy-platform-project\energy-platform-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\energy-platform-project\energy-platform-server\node_modules\koa-session\index.js:41:7)
+
+pid: 15464
+hostname: J9MO9BU01VTBF92
+
+2020-09-23 15:27:12,034 ERROR 4724 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4724
+hostname: J9MO9BU01VTBF92
+
+2020-09-23 17:13:05,900 ERROR 4724 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4724
+hostname: J9MO9BU01VTBF92
+
+2020-09-23 23:41:30,306 ERROR 4724 nodejs.ClusterClientNoResponseError: client no response in 6163630ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 4724
+hostname: J9MO9BU01VTBF92
+
+2020-09-24 00:25:30,077 ERROR 4724 nodejs.ClusterClientNoResponseError: client no response in 1599045ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 4724
+hostname: J9MO9BU01VTBF92
+

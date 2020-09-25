@@ -1,0 +1,54 @@
+2020-09-15 04:56:51,457 INFO 1548 [Job#16001170114114065784677869001] D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2020-09-15 04:56:51,465 INFO 1548 [Job#16001170114114065784677869001] D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 8ms
+2020-09-15 04:56:51,464 INFO 10088 [Timer] D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 84788589ms at 2020-09-16 04:30:00.053
+2020-09-15 13:43:20,109 INFO 5304 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 13:43:20,109 INFO 5304 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 13:43:20,109 INFO 5304 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 13:43:22,280 INFO 13640 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 13:43:22,280 INFO 13640 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 13:43:22,280 INFO 13640 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 13:51:11,276 INFO 4388 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 13:51:11,276 INFO 4388 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 13:51:11,276 INFO 4388 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 13:52:21,470 INFO 8292 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 13:52:21,470 INFO 8292 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 13:52:21,470 INFO 8292 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 13:53:05,008 INFO 4992 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 13:53:05,008 INFO 4992 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 13:53:05,008 INFO 4992 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 14:00:15,971 INFO 7796 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 14:00:15,971 INFO 7796 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 14:00:15,971 INFO 7796 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 14:00:28,024 INFO 13812 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 14:00:28,024 INFO 13812 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 14:00:28,024 INFO 13812 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 14:00:41,955 INFO 13996 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 14:00:41,955 INFO 13996 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 14:00:41,955 INFO 13996 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 14:21:02,810 INFO 14724 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 14:21:02,810 INFO 14724 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 14:21:02,810 INFO 14724 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 14:27:28,155 INFO 2908 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 14:27:28,155 INFO 2908 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 14:27:28,155 INFO 2908 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 14:27:47,121 INFO 15936 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 14:27:47,121 INFO 15936 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 14:27:47,121 INFO 15936 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 14:28:27,307 INFO 8228 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 14:28:27,307 INFO 8228 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 14:28:27,307 INFO 8228 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 14:28:46,613 INFO 13068 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 14:28:46,613 INFO 13068 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 14:28:46,613 INFO 13068 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 14:29:31,264 INFO 16132 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 14:29:31,265 INFO 16132 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 14:29:31,265 INFO 16132 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 14:31:29,195 INFO 13668 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-09-15 14:31:29,195 INFO 13668 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-09-15 14:31:29,195 INFO 13668 [egg-schedule]: register schedule D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-09-15 23:59:59,970 INFO 10088 [Timer] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 86400048ms at 2020-09-17 00:00:00.017
+2020-09-15 23:59:59,983 INFO 13668 [Job#1600185599947475167335250002] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-09-16 00:00:00,346 INFO 13668 [Job#1600185599947475167335250002] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 353ms
+2020-09-16 00:00:00,942 INFO 13668 [Job#1600185600938475168237055002] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-09-16 00:00:00,959 INFO 13668 [Job#1600185600938475168237055002] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 17ms
+2020-09-16 00:00:00,947 INFO 10088 [Timer] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86400059ms at 2020-09-17 00:00:01.006

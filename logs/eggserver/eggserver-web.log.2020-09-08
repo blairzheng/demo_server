@@ -1,0 +1,81 @@
+2020-09-08 10:16:31,961 WARN 15880 [-/127.0.0.1/-/5ms POST /user/update] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.updateuser (D:\energy-platform-project\energy-platform-server\app\controller\user.js:73:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"password","code":"missing_field"}]
+pid: 15880
+hostname: J9MO9BU01VTBF92
+
+2020-09-08 10:17:31,821 WARN 14452 [-/127.0.0.1/-/33ms POST /user/update] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.updateuser (D:\energy-platform-project\energy-platform-server\app\controller\user.js:74:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"password","code":"missing_field"},{"message":"required","field":"company","code":"missing_field"}]
+pid: 14452
+hostname: J9MO9BU01VTBF92
+
+2020-09-08 10:18:08,171 WARN 10688 [-/127.0.0.1/-/33ms POST /user/update] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.updateuser (D:\energy-platform-project\energy-platform-server\app\controller\user.js:74:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"password","code":"missing_field"},{"message":"required","field":"company","code":"missing_field"}]
+pid: 10688
+hostname: J9MO9BU01VTBF92
+
+2020-09-08 10:22:12,393 ERROR 4816 [-/127.0.0.1/-/36ms POST /user/update] nodejs.ReferenceError: _data is not defined
+    at UserService.updateuser (D:\energy-platform-project\energy-platform-server\app\service\user.js:17:21)
+    at UsreController.updateuser (D:\energy-platform-project\energy-platform-server\app\controller\user.js:72:51)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 4816
+hostname: J9MO9BU01VTBF92
+
+2020-09-08 10:22:27,009 ERROR 720 [-/127.0.0.1/-/42ms POST /user/update] nodejs.ReferenceError: _ata is not defined
+    at UserService.updateuser (D:\energy-platform-project\energy-platform-server\app\service\user.js:17:21)
+    at UsreController.updateuser (D:\energy-platform-project\energy-platform-server\app\controller\user.js:72:51)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 720
+hostname: J9MO9BU01VTBF92
+

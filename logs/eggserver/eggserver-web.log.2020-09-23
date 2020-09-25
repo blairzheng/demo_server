@@ -1,0 +1,66 @@
+2020-09-23 13:58:02,206 WARN 16448 [-/192.168.0.174/-/6ms POST /user/update] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.updateuser (D:\energy-platform-project\energy-platform-server\app\controller\user.js:135:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"emailCode","code":"missing_field"}]
+pid: 16448
+hostname: J9MO9BU01VTBF92
+
+2020-09-23 13:58:03,514 WARN 16448 [-/192.168.0.174/-/2ms POST /user/update] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.updateuser (D:\energy-platform-project\energy-platform-server\app\controller\user.js:135:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"emailCode","code":"missing_field"}]
+pid: 16448
+hostname: J9MO9BU01VTBF92
+
+2020-09-23 14:18:29,155 WARN 15464 [-/127.0.0.1/-/13ms POST /user/getPassByMail] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.updatePassByMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:242:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"username","code":"missing_field"},{"message":"required","field":"email","code":"missing_field"}]
+pid: 15464
+hostname: J9MO9BU01VTBF92
+
+2020-09-23 14:19:06,695 ERROR 15464 [-/127.0.0.1/-/33ms POST /user/getPassByMail] nodejs.ReferenceError: list is not defined
+    at UsreController.updatePassByMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:247:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async errorHandler (D:\energy-platform-project\energy-platform-server\app\middleware\error_handler.js:4:9)
+    at async params (D:\energy-platform-project\energy-platform-server\app\middleware\params.js:7:7)
+    at async D:\energy-platform-project\energy-platform-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\energy-platform-project\energy-platform-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\energy-platform-project\energy-platform-server\node_modules\koa-session\index.js:41:7)
+
+pid: 15464
+hostname: J9MO9BU01VTBF92
+

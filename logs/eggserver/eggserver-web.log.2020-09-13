@@ -1,0 +1,30 @@
+2020-09-13 14:19:53,235 ERROR 3724 [-/127.0.0.1/-/12ms POST /verify] nodejs.ReferenceError: svgCaptcha is not defined
+    at VerifyService.captcha (D:\energy-platform-project\energy-platform-server\app\service\verifyCode.js:13:25)
+    at VerifyController.verify (D:\energy-platform-project\energy-platform-server\app\controller\verifyCode.js:6:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 3724
+hostname: J9MO9BU01VTBF92
+
+2020-09-13 14:20:35,555 ERROR 8580 [-/127.0.0.1/-/12ms POST /verify] nodejs.ReferenceError: svgCaptcha is not defined
+    at VerifyService.captcha (D:\energy-platform-project\energy-platform-server\app\service\verifyCode.js:13:25)
+    at VerifyController.verify (D:\energy-platform-project\energy-platform-server\app\controller\verifyCode.js:6:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 8580
+hostname: J9MO9BU01VTBF92
+

@@ -1,0 +1,607 @@
+2020-08-21 08:58:21,617 ERROR 12136 [-/192.168.0.246/-/4ms POST /login] nodejs.Error: this.session can only be set as null or an object.
+    at ContextSession.set (D:\eggServer\node_modules\koa-session\lib\context.js:59:11)
+    at Object.set (D:\eggServer\node_modules\koa-session\index.js:141:31)
+    at LoginController.login (D:\eggServer\app\controller\login.js:6:21)
+    at Object.callFn (D:\eggServer\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\eggServer\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\eggServer\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\eggServer\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\eggServer\node_modules\koa-compose\index.js:44:32)
+    at next (D:\eggServer\node_modules\koa-compose\index.js:45:18)
+    at D:\eggServer\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 12136
+hostname: J9MO9BU01VTBF92
+
+2020-08-21 13:34:46,390 WARN 11248 [-/192.168.0.246/-/7ms POST /upload] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (D:\eggServer\node_modules\koa\lib\context.js:97:11)
+    at Object.multipart (D:\eggServer\node_modules\egg-multipart\app\extend\context.js:167:17)
+    at Object.getFileStream (D:\eggServer\node_modules\egg-multipart\app\extend\context.js:215:24)
+    at HomeController.upload (D:\eggServer\app\controller\test.js:46:34)
+    at Object.callFn (D:\eggServer\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\eggServer\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\eggServer\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\eggServer\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\eggServer\node_modules\koa-compose\index.js:44:32)
+    at next (D:\eggServer\node_modules\koa-compose\index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 11248
+hostname: J9MO9BU01VTBF92
+
+2020-08-21 13:35:35,051 WARN 11248 [-/192.168.0.246/-/1ms POST /upload] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (D:\eggServer\node_modules\koa\lib\context.js:97:11)
+    at Object.multipart (D:\eggServer\node_modules\egg-multipart\app\extend\context.js:167:17)
+    at Object.getFileStream (D:\eggServer\node_modules\egg-multipart\app\extend\context.js:215:24)
+    at HomeController.upload (D:\eggServer\app\controller\test.js:46:34)
+    at Object.callFn (D:\eggServer\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\eggServer\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\eggServer\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\eggServer\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\eggServer\node_modules\koa-compose\index.js:44:32)
+    at next (D:\eggServer\node_modules\koa-compose\index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 11248
+hostname: J9MO9BU01VTBF92
+
+2020-08-21 13:35:49,552 ERROR 11248 [-/192.168.0.246/-/16ms POST /upload] nodejs.TypeError: Cannot read property 'put' of undefined
+    at HomeController.upload (D:\eggServer\app\controller\test.js:50:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async errorHandler (D:\eggServer\app\middleware\error_handler.js:4:9)
+    at async params (D:\eggServer\app\middleware\params.js:7:7)
+    at async D:\eggServer\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\eggServer\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\eggServer\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\eggServer\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\eggServer\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\eggServer\node_modules\koa-session\index.js:41:7)
+
+pid: 11248
+hostname: J9MO9BU01VTBF92
+
+2020-08-21 13:36:51,342 ERROR 11248 [-/192.168.0.246/-/5ms POST /upload] nodejs.TypeError: Cannot read property 'put' of undefined
+    at HomeController.upload (D:\eggServer\app\controller\test.js:50:34)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async errorHandler (D:\eggServer\app\middleware\error_handler.js:4:9)
+    at async params (D:\eggServer\app\middleware\params.js:7:7)
+    at async D:\eggServer\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\eggServer\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\eggServer\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\eggServer\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\eggServer\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\eggServer\node_modules\koa-session\index.js:41:7)
+
+pid: 11248
+hostname: J9MO9BU01VTBF92
+
+2020-08-21 13:42:01,749 ERROR 13544 [-/192.168.0.246/-/34ms POST /upload] nodejs.TypeError: ctx.put is not a function
+    at HomeController.upload (D:\eggServer\app\controller\test.js:51:30)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async errorHandler (D:\eggServer\app\middleware\error_handler.js:4:9)
+    at async params (D:\eggServer\app\middleware\params.js:7:7)
+    at async D:\eggServer\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\eggServer\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\eggServer\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\eggServer\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\eggServer\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\eggServer\node_modules\koa-session\index.js:41:7)
+
+pid: 13544
+hostname: J9MO9BU01VTBF92
+
+2020-08-21 14:34:26,472 ERROR 6648 [-/192.168.0.246/-/33ms POST /upload] nodejs.ReferenceError: fs is not defined
+    at mkdirsSync (D:\eggServer\app\controller\test.js:57:13)
+    at HomeController.upload (D:\eggServer\app\controller\test.js:66:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async errorHandler (D:\eggServer\app\middleware\error_handler.js:4:9)
+    at async params (D:\eggServer\app\middleware\params.js:7:7)
+    at async D:\eggServer\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\eggServer\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\eggServer\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\eggServer\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\eggServer\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 6648
+hostname: J9MO9BU01VTBF92
+
+2020-08-21 14:34:59,588 ERROR 15524 [-/192.168.0.246/-/29ms POST /upload] nodejs.TypeError: this.error is not a function
+    at HomeController.upload (D:\eggServer\app\controller\test.js:78:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async errorHandler (D:\eggServer\app\middleware\error_handler.js:4:9)
+    at async params (D:\eggServer\app\middleware\params.js:7:7)
+    at async D:\eggServer\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\eggServer\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\eggServer\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\eggServer\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\eggServer\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\eggServer\node_modules\koa-session\index.js:41:7)
+
+pid: 15524
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 14:11:14,127 ERROR 8956 [-/127.0.0.1/-/7ms GET /mail] nodejs.TypeError: this.service.sendMail is not a function
+    at MailController.sendMail (D:\energy-platform-project\energy-platform-server\app\controller\mail.js:10:41)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:36:12
+
+pid: 8956
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 14:13:40,002 ERROR 4388 [-/127.0.0.1/-/6ms GET /mail] nodejs.ReferenceError: user_email is not defined
+    at MailService.sendMail (D:\energy-platform-project\energy-platform-server\app\service\mail.js:19:19)
+    at MailController.sendMail (D:\energy-platform-project\energy-platform-server\app\controller\mail.js:10:45)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 4388
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 14:14:32,404 ERROR 11660 [-/127.0.0.1/-/7ms GET /mail] nodejs.ReferenceError: user_email is not defined
+    at MailService.sendMail (D:\energy-platform-project\energy-platform-server\app\service\mail.js:19:19)
+    at MailController.sendMail (D:\energy-platform-project\energy-platform-server\app\controller\mail.js:10:45)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 11660
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 14:14:33,548 ERROR 11660 [-/127.0.0.1/-/2ms GET /mail] nodejs.ReferenceError: user_email is not defined
+    at MailService.sendMail (D:\energy-platform-project\energy-platform-server\app\service\mail.js:19:19)
+    at MailController.sendMail (D:\energy-platform-project\energy-platform-server\app\controller\mail.js:10:45)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 11660
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 14:29:47,162 ERROR 8816 [-/127.0.0.1/-/7ms GET /mail] nodejs.ReferenceError: html is not defined
+    at MailController.sendMail (D:\energy-platform-project\energy-platform-server\app\controller\mail.js:9:76)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:36:12
+
+pid: 8816
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 14:49:58,916 WARN 9468 [-/127.0.0.1/-/31ms POST /mail] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at MailController.sendMail (D:\energy-platform-project\energy-platform-server\app\controller\mail.js:9:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"email","code":"missing_field"}]
+pid: 9468
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 16:20:09,766 ERROR 8552 [-/127.0.0.1/-/33ms POST /verify] nodejs.TypeError: Cannot read property 'captcha' of undefined
+    at VerifyController.verify (D:\energy-platform-project\energy-platform-server\app\controller\verifyCode.js:6:50)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:36:12
+
+pid: 8552
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 16:21:23,302 ERROR 11548 [-/127.0.0.1/-/29ms POST /verify] nodejs.TypeError: Cannot read property 'captcha' of undefined
+    at VerifyController.verify (D:\energy-platform-project\energy-platform-server\app\controller\verifyCode.js:6:50)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:36:12
+
+pid: 11548
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 16:22:19,806 ERROR 5040 [-/127.0.0.1/-/37ms POST /verify] nodejs.TypeError: Cannot set property type of #<Object> which has only a getter
+    at VerifyController.verify (D:\energy-platform-project\energy-platform-server\app\controller\verifyCode.js:8:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 5040
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 16:23:16,217 ERROR 7948 [-/127.0.0.1/-/36ms POST /verify] nodejs.TypeError: Cannot set property type of #<Object> which has only a getter
+    at VerifyController.verify (D:\energy-platform-project\energy-platform-server\app\controller\verifyCode.js:8:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+pid: 7948
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 17:12:48,458 WARN 13620 [-/127.0.0.1/-/31ms POST /login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.login (D:\energy-platform-project\energy-platform-server\app\controller\user.js:9:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be a string","code":"invalid","field":"password"}]
+pid: 13620
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 17:23:47,160 WARN 13712 [-/127.0.0.1/-/31ms POST /login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.login (D:\energy-platform-project\energy-platform-server\app\controller\user.js:10:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"verifyCode","code":"missing_field"}]
+pid: 13712
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 17:23:59,009 WARN 13712 [-/127.0.0.1/-/1ms POST /login] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.login (D:\energy-platform-project\energy-platform-server\app\controller\user.js:10:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should not be empty","code":"invalid","field":"verifyCode"}]
+pid: 13712
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 17:47:05,623 WARN 13516 [-/127.0.0.1/-/38ms POST /user/add] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.adduser (D:\energy-platform-project\energy-platform-server\app\controller\user.js:57:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"company","code":"missing_field"}]
+pid: 13516
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 18:08:13,282 ERROR 9476 [-/127.0.0.1/-/13ms POST /user/add] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry 'honghu2020' for key '_username'
+    at Query.Sequence._packetToError (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\energy-platform-project\energy-platform-server\node_modules\co\index.js:65:19)
+    at D:\energy-platform-project\energy-platform-server\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`username`, `password`, `company`) VALUES('honghu2020', '1234561', '测试1')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry 'honghu2020' for key '_username'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `user`(`username`, `password`, `company`) VALUES('honghu2020', '1234561', '测试1')"
+name: "ER_DUP_ENTRYError"
+pid: 9476
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 18:10:01,505 ERROR 8892 [-/127.0.0.1/-/50ms POST /user/add] nodejs.ER_DUP_ENTRYError: ER_DUP_ENTRY: Duplicate entry 'honghu2020' for key '_username'
+    at Query.Sequence._packetToError (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\energy-platform-project\energy-platform-server\node_modules\co\index.js:65:19)
+    at D:\energy-platform-project\energy-platform-server\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`username`, `password`, `company`) VALUES('honghu2020', '1234561', '测试1')
+code: "ER_DUP_ENTRY"
+errno: 1062
+sqlMessage: "Duplicate entry 'honghu2020' for key '_username'"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `user`(`username`, `password`, `company`) VALUES('honghu2020', '1234561', '测试1')"
+name: "ER_DUP_ENTRYError"
+pid: 8892
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 18:59:59,576 WARN 9840 [-/127.0.0.1/-/2ms POST /mail] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at MailController.sendMail (D:\energy-platform-project\energy-platform-server\app\controller\mail.js:16:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"email","code":"missing_field"}]
+pid: 9840
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:02:30,500 WARN 9324 [-/127.0.0.1/-/7ms POST /user/updateMail] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (D:\energy-platform-project\energy-platform-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (D:\energy-platform-project\energy-platform-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:107:13)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be a string","code":"invalid","field":"emailCode"}]
+pid: 9324
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:02:49,034 ERROR 13396 [-/127.0.0.1/-/42ms POST /user/updateMail] nodejs.ReferenceError: ctx is not defined
+    at UserService.updatemail (D:\energy-platform-project\energy-platform-server\app\service\user.js:15:50)
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:108:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 13396
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:06:59,096 ERROR 2040 [-/127.0.0.1/-/4ms POST /user/updateMail] nodejs.ReferenceError: ctx is not defined
+    at UserService.updatemail (D:\energy-platform-project\energy-platform-server\app\service\user.js:15:50)
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:108:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 2040
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:08:55,639 ERROR 13868 [-/127.0.0.1/-/35ms POST /user/updateMail] nodejs.ReferenceError: ctx is not defined
+    at UserService.updatemail (D:\energy-platform-project\energy-platform-server\app\service\user.js:15:50)
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:108:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 13868
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:08:57,037 ERROR 13868 [-/127.0.0.1/-/2ms POST /user/updateMail] nodejs.ReferenceError: ctx is not defined
+    at UserService.updatemail (D:\energy-platform-project\energy-platform-server\app\service\user.js:15:50)
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:108:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 13868
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:09:10,356 ERROR 14136 [-/127.0.0.1/-/29ms POST /user/updateMail] nodejs.ReferenceError: ctx is not defined
+    at UserService.updatemail (D:\energy-platform-project\energy-platform-server\app\service\user.js:15:50)
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:108:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 14136
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:10:04,366 ERROR 5632 [-/127.0.0.1/-/39ms POST /user/updateMail] nodejs.ReferenceError: ctx is not defined
+    at UserService.updatemail (D:\energy-platform-project\energy-platform-server\app\service\user.js:15:50)
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:112:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 5632
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:11:18,079 ERROR 14012 [-/127.0.0.1/-/40ms POST /user/updateMail] nodejs.ReferenceError: ctx is not defined
+    at UserService.updatemail (D:\energy-platform-project\energy-platform-server\app\service\user.js:16:50)
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:112:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 14012
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:12:18,997 ERROR 2440 [-/127.0.0.1/-/44ms POST /user/updateMail] nodejs.ReferenceError: ctx is not defined
+    at UserService.updatemail (D:\energy-platform-project\energy-platform-server\app\service\user.js:16:50)
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:113:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 2440
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:13:15,329 ERROR 10384 [-/127.0.0.1/-/29ms POST /user/updateMail] nodejs.ReferenceError: ctx is not defined
+    at UserService.updatemail (D:\energy-platform-project\energy-platform-server\app\service\user.js:15:50)
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:113:49)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+
+pid: 10384
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:13:51,634 ERROR 13968 [-/127.0.0.1/-/38ms POST /user/updateMail] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'emailCode' in 'field list'
+    at Query.Sequence._packetToError (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (D:\energy-platform-project\energy-platform-server\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\energy-platform-project\energy-platform-server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\energy-platform-project\energy-platform-server\node_modules\co\index.js:65:19)
+    at D:\energy-platform-project\energy-platform-server\node_modules\co\index.js:54:5
+    sql: UPDATE `user` SET `email` = '382858416@qq.com', `emailCode` = 998996, `id` = 1 WHERE `id` = 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'emailCode' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `user` SET `email` = '382858416@qq.com', `emailCode` = 998996, `id` = 1 WHERE `id` = 1"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 13968
+hostname: J9MO9BU01VTBF92
+
+2020-09-07 19:17:55,855 ERROR 12756 [-/127.0.0.1/-/28ms POST /user/updateMail] nodejs.ReferenceError: Cannot access 'ctx' before initialization
+    at UsreController.bindMail (D:\energy-platform-project\energy-platform-server\app\controller\user.js:84:21)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\energy-platform-project\energy-platform-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:45:18)
+    at D:\energy-platform-project\energy-platform-server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:44:32)
+    at D:\energy-platform-project\energy-platform-server\node_modules\koa-compose\index.js:36:12
+
+pid: 12756
+hostname: J9MO9BU01VTBF92
+
