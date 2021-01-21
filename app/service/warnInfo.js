@@ -1,12 +1,19 @@
 const Service = require('egg').Service;
 class WarnInfoService extends Service {
     async list(data) {
+        let table = ""
+        if(data.device) {
+            table = data.device.toLowerCase()
+        }else{
+            const info = await this.ctx.service.systemSet.getInfo()
+            table = info.defaultDevice.toLowerCase()
+        }
         const page = data.page || 1
         const pageSize = data.pageSize || 10
         const startTime = data.startTime || '1970-01-01 00:00:00'
         const endTime = data.endTime || this.ctx.helper.dateFormat("YYYY-mm-dd HH:MM:SS",new Date)
-        const total = await this.app.mysql.query(`SELECT count(*) as total  FROM device_warn WHERE time>'${startTime}' AND time< '${endTime}'`)
-        const list = await this.app.mysql.query(`SELECT * FROM device_warn WHERE time>'${startTime}' AND time< '${endTime}' ORDER BY id DESC LIMIT ${(page - 1) * pageSize},${pageSize}`)
+        const total = await this.app.mysql.query(`SELECT count(*) as total  FROM device_warn WHERE deviceName='${table}' AND time>'${startTime}' AND time< '${endTime}'`)
+        const list = await this.app.mysql.query(`SELECT * FROM device_warn WHERE deviceName='${table}' AND time>'${startTime}' AND time< '${endTime}' ORDER BY id DESC LIMIT ${(page - 1) * pageSize},${pageSize}`)
         let _data = {total:total[0].total,list}
         return _data
     }

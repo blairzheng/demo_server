@@ -1,0 +1,9 @@
+2020-11-22 04:56:54,342 INFO 13952 [Timer] D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 84785666ms at 2020-11-23 04:30:00.008
+2020-11-22 04:56:54,461 INFO 8720 [Job#16059922143346200675708740002] D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2020-11-22 04:56:54,806 INFO 8720 [Job#16059922143346200675708740002] D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 345ms
+2020-11-23 00:20:30,175 INFO 8720 [Job#16060620301456898834224543003] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-11-23 00:20:30,176 INFO 8720 [Job#16060620301566898834342585003] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-11-23 00:20:30,180 INFO 8720 [Job#16060620301456898834224543003] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 5ms
+2020-11-23 00:20:30,187 INFO 8720 [Job#16060620301566898834342585003] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 11ms
+2020-11-23 00:20:30,156 INFO 13952 [Timer] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 85169855ms at 2020-11-24 00:00:00.011
+2020-11-23 00:20:30,161 INFO 13952 [Timer] D:\energy-platform-project\energy-platform-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 85170843ms at 2020-11-24 00:00:01.004

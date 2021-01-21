@@ -1,0 +1,46 @@
+2020-11-20 23:59:59,580 INFO 8720 [egg-logrotator] app logger reload: got log-reload message
+2020-11-21 00:13:29,578 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 00:18:30,097 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 00:23:29,898 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 00:28:29,527 WARN 8720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 00:28:29,528 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 00:33:30,367 WARN 8720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 00:33:30,682 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 00:38:30,337 WARN 8720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 00:38:30,611 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 00:43:30,133 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 00:48:29,821 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 00:53:29,969 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 00:58:30,003 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:03:29,706 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:08:29,697 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:13:29,651 WARN 8720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 01:13:29,652 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:18:30,376 WARN 8720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 01:18:30,645 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:23:31,312 WARN 8720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 01:23:31,616 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:28:30,135 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:33:29,992 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:38:29,839 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:43:30,313 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:48:29,536 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:53:29,550 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 01:58:29,520 WARN 8720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 01:58:29,526 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 05:00:53,600 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 05:00:53,636 INFO 8720 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggserver"
+2020-11-21 05:00:53,649 INFO 8720 [-/127.0.0.1/-/19ms SCHEDULE /__schedule?path=D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-11-21 08:00:55,927 WARN 8720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 08:00:55,928 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 11:00:58,324 WARN 8720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 11:00:58,689 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 14:00:59,569 WARN 8720 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-21 14:00:59,569 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 17:01:02,719 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 20:01:06,061 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-21 23:01:08,438 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-22 00:29:29,862 WARN 8720 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-22 00:29:29,865 INFO 8720 [egg-logrotator] clean all log before 31 days
+2020-11-22 00:29:29,870 INFO 8720 [egg-logrotator] broadcast log-reload
+2020-11-22 00:29:29,870 INFO 8720 [egg-logrotator] rotate files success by DayRotator, files ["D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\common-error.log -> D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\common-error.log.2020-11-21","D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\eggserver-web.log -> D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\eggserver-web.log.2020-11-21","D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-web.log -> D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-web.log.2020-11-21","D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-schedule.log -> D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-schedule.log.2020-11-21","D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-agent.log -> D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver\\egg-agent.log.2020-11-21"]

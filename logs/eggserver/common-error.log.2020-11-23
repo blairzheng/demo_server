@@ -1,0 +1,184 @@
+2020-11-23 00:25:29,662 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 159460ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 00:30:30,299 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 160629ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 00:35:29,545 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 157059ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 00:40:29,753 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 160201ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 00:45:29,797 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 160036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 00:50:30,379 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 160571ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 00:55:30,256 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 159586ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:00:30,349 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 157787ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:05:29,768 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 159054ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:10:29,962 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 160181ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:15:29,844 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 159841ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:20:30,065 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 160211ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:25:29,668 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 157327ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:30:29,534 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 159856ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:35:30,338 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 160788ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:40:30,053 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 159361ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:45:29,795 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 159731ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:50:30,361 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 160558ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 01:55:30,348 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 159593ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 04:58:03,945 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 10813431ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 08:23:26,802 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 12322854ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 13952
+hostname: J9MO9BU01VTBF92
+
+2020-11-23 21:46:37,023 ERROR 10268 nodejs.ClusterClientNoResponseError: client no response in 10819048ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 10268
+hostname: J9MO9BU01VTBF92
+
+2020-11-24 00:16:29,900 ERROR 10268 nodejs.ClusterClientNoResponseError: client no response in 8992829ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 10268
+hostname: J9MO9BU01VTBF92
+
