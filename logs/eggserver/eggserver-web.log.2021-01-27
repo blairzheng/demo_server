@@ -1,0 +1,142 @@
+2021-01-27 17:14:41,605 ERROR 9572 [-/127.0.0.1/-/38ms POST /permission/add] nodejs.TypeError: ctx.service.user.addPermission is not a function
+    at PermissionController.addPermission (C:\Users\Administrator\Desktop\demo_server\app\controller\permission.js:73:48)
+    at Object.callFn (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\demo_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\demo_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\demo_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\demo_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\demo_server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\demo_server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\demo_server\node_modules\koa-compose\index.js:36:12
+
+pid: 9572
+hostname: J9MO9BU01VTBF92
+
+2021-01-27 18:00:42,513 WARN 5720 [-/127.0.0.1/-/32ms POST /role/add] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\demo_server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at PermissionController.addPermission (C:\Users\Administrator\Desktop\demo_server\app\controller\permission.js:10:13)
+    at Object.callFn (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\demo_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\demo_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\demo_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\demo_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\demo_server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"permissionName","code":"missing_field"},{"message":"required","field":"routePath","code":"missing_field"}]
+pid: 5720
+hostname: J9MO9BU01VTBF92
+
+2021-01-27 18:01:35,347 WARN 10276 [-/127.0.0.1/-/30ms POST /role/add] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\Administrator\Desktop\demo_server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at PermissionController.addPermission (C:\Users\Administrator\Desktop\demo_server\app\controller\permission.js:10:13)
+    at Object.callFn (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\demo_server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\demo_server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\demo_server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\demo_server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\demo_server\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"permissionName","code":"missing_field"},{"message":"required","field":"routePath","code":"missing_field"}]
+pid: 10276
+hostname: J9MO9BU01VTBF92
+
+2021-01-27 18:02:53,858 ERROR 8300 [-/127.0.0.1/-/34ms POST /role/add] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (C:\Users\Administrator\Desktop\demo_server\node_modules\ali-rds\lib\operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as insert] (C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:30:15)
+    at RoleService.addRole (C:\Users\Administrator\Desktop\demo_server\app\service\role.js:6:54)
+    at RoleController.addRole (C:\Users\Administrator\Desktop\demo_server\app\controller\role.js:11:48)
+
+pid: 8300
+hostname: J9MO9BU01VTBF92
+
+2021-01-27 18:04:14,000 ERROR 14392 [-/127.0.0.1/-/36ms POST /role/add] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (C:\Users\Administrator\Desktop\demo_server\node_modules\ali-rds\lib\operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as insert] (C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:30:15)
+    at RoleService.addRole (C:\Users\Administrator\Desktop\demo_server\app\service\role.js:6:54)
+    at RoleController.addRole (C:\Users\Administrator\Desktop\demo_server\app\controller\role.js:11:48)
+
+pid: 14392
+hostname: J9MO9BU01VTBF92
+
+2021-01-27 18:05:06,604 ERROR 16100 [-/127.0.0.1/-/37ms POST /role/add] nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.insert (C:\Users\Administrator\Desktop\demo_server\node_modules\ali-rds\lib\operator.js:124:30)
+    at proto.insert.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as insert] (C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:30:15)
+    at RoleService.addRole (C:\Users\Administrator\Desktop\demo_server\app\service\role.js:7:54)
+    at RoleController.addRole (C:\Users\Administrator\Desktop\demo_server\app\controller\role.js:11:48)
+
+pid: 16100
+hostname: J9MO9BU01VTBF92
+
+2021-01-27 18:06:06,475 ERROR 20064 [-/127.0.0.1/-/355ms POST /role/add] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'addRoleName' in 'field list'
+    at Query.Sequence._packetToError (C:\Users\Administrator\Desktop\demo_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Administrator\Desktop\demo_server\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Administrator\Desktop\demo_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Administrator\Desktop\demo_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Administrator\Desktop\demo_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Administrator\Desktop\demo_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\demo_server\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Administrator\Desktop\demo_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    --------------------
+    at Pool.query (C:\Users\Administrator\Desktop\demo_server\node_modules\mysql\lib\Pool.js:199:23)
+    at C:\Users\Administrator\Desktop\demo_server\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (C:\Users\Administrator\Desktop\demo_server\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (C:\Users\Administrator\Desktop\demo_server\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (C:\Users\Administrator\Desktop\demo_server\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (C:\Users\Administrator\Desktop\demo_server\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:65:19)
+    at C:\Users\Administrator\Desktop\demo_server\node_modules\co\index.js:54:5
+    sql: INSERT INTO `role`(`addRoleName`) VALUES(NULL)
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'addRoleName' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `role`(`addRoleName`) VALUES(NULL)"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20064
+hostname: J9MO9BU01VTBF92
+
+2021-01-27 18:09:12,997 ERROR 11752 [-/127.0.0.1/-/43ms POST /role/add] nodejs.ReferenceError: Cannot access 'roleId' before initialization
+    at RoleService.addRole (C:\Users\Administrator\Desktop\demo_server\app\service\role.js:9:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async RoleController.addRole (C:\Users\Administrator\Desktop\demo_server\app\controller\role.js:11:25)
+    at async errorHandler (C:\Users\Administrator\Desktop\demo_server\app\middleware\error_handler.js:4:9)
+    at async params (C:\Users\Administrator\Desktop\demo_server\app\middleware\params.js:7:7)
+    at async C:\Users\Administrator\Desktop\demo_server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\demo_server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 11752
+hostname: J9MO9BU01VTBF92
+

@@ -1,8 +1,0 @@
-2020-11-20 21:32:40,447 ERROR 13952 nodejs.ClusterClientNoResponseError: client no response in 10803125ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout._onTimeout (D:\energy-platform-project\energy-platform-server\node_modules\cluster-client\lib\leader.js:77:23)
-    at listOnTimeout (internal/timers.js:549:17)
-    at processTimers (internal/timers.js:492:7)
-name: "ClusterClientNoResponseError"
-pid: 13952
-hostname: J9MO9BU01VTBF92
-

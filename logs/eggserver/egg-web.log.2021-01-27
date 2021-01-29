@@ -1,0 +1,485 @@
+2020-11-24 00:16:30,132 INFO 17864 [egg-logrotator] app logger reload: got log-reload message
+2020-11-24 00:21:30,019 WARN 17864 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-11-24 00:21:30,020 WARN 17864 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-24 00:26:29,866 WARN 17864 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-24 03:34:29,933 WARN 17864 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-24 08:53:27,693 WARN 17864 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-11-24 08:53:28,654 INFO 17864 [-/127.0.0.1/-/4ms SCHEDULE /__schedule?path=D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggserver"
+2020-11-24 08:53:28,662 INFO 17864 [-/127.0.0.1/-/13ms SCHEDULE /__schedule?path=D:\energy-platform-project\energy-platform-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-12-15 13:53:35,402 INFO 14592 [egg:logger] init all loggers with options: {"dir":"D:\\energy-platform-project\\energy-platform-server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-12-15 13:53:35,437 INFO 14592 [egg-multipart] stream mode enable
+2020-12-15 13:53:35,437 INFO 14592 [egg-mysql] connecting root@localhost:3306/energy-platform
+2020-12-15 13:53:35,665 INFO 14592 [egg-static] starting static serve /public/ -> D:\energy-platform-project\energy-platform-server\app\public
+2020-12-15 13:53:35,668 INFO 14592 [egg-security] use methodnoallow middleware
+2020-12-15 13:53:35,669 INFO 14592 [egg-security] use noopen middleware
+2020-12-15 13:53:35,669 INFO 14592 [egg-security] use nosniff middleware
+2020-12-15 13:53:35,670 INFO 14592 [egg-security] use xssProtection middleware
+2020-12-15 13:53:35,671 INFO 14592 [egg-security] use xframe middleware
+2020-12-15 13:53:35,671 INFO 14592 [egg-security] use dta middleware
+2020-12-15 13:53:35,671 INFO 14592 [egg-security] compose 6 middlewares into one security middleware
+2020-12-15 13:53:35,718 INFO 14592 [egg:core] dump config after load, 5ms
+2020-12-15 13:53:35,739 INFO 14592 [egg-watcher:application] watcher start success
+2020-12-15 13:53:35,766 INFO 14592 [egg-mysql] instance[0] status OK, rds currentTime: Tue Dec 15 2020 13:53:35 GMT+0800 (GMT+08:00)
+2020-12-15 13:53:35,784 INFO 14592 [egg:core] dump config after ready, 15ms
+2021-01-27 17:12:49,434 INFO 9572 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:12:49,493 INFO 9572 [egg-multipart] stream mode enable
+2021-01-27 17:12:49,494 INFO 9572 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:12:49,838 INFO 9572 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:12:49,841 INFO 9572 [egg-security] use methodnoallow middleware
+2021-01-27 17:12:49,842 INFO 9572 [egg-security] use noopen middleware
+2021-01-27 17:12:49,843 INFO 9572 [egg-security] use nosniff middleware
+2021-01-27 17:12:49,844 INFO 9572 [egg-security] use xssProtection middleware
+2021-01-27 17:12:49,844 INFO 9572 [egg-security] use xframe middleware
+2021-01-27 17:12:49,845 INFO 9572 [egg-security] use dta middleware
+2021-01-27 17:12:49,845 INFO 9572 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:12:49,858 INFO 9572 [egg:core] dump config after load, 6ms
+2021-01-27 17:12:49,880 INFO 9572 [egg-watcher:application] watcher start success
+2021-01-27 17:12:49,953 INFO 9572 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:12:49 GMT+0800 (GMT+08:00)
+2021-01-27 17:12:49,975 INFO 9572 [egg:core] dump config after ready, 18ms
+2021-01-27 17:15:44,189 INFO 11760 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:15:44,231 INFO 11760 [egg-multipart] stream mode enable
+2021-01-27 17:15:44,231 INFO 11760 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:15:44,421 INFO 11760 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:15:44,424 INFO 11760 [egg-security] use methodnoallow middleware
+2021-01-27 17:15:44,425 INFO 11760 [egg-security] use noopen middleware
+2021-01-27 17:15:44,426 INFO 11760 [egg-security] use nosniff middleware
+2021-01-27 17:15:44,427 INFO 11760 [egg-security] use xssProtection middleware
+2021-01-27 17:15:44,427 INFO 11760 [egg-security] use xframe middleware
+2021-01-27 17:15:44,428 INFO 11760 [egg-security] use dta middleware
+2021-01-27 17:15:44,428 INFO 11760 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:15:44,442 INFO 11760 [egg:core] dump config after load, 6ms
+2021-01-27 17:15:44,466 INFO 11760 [egg-watcher:application] watcher start success
+2021-01-27 17:15:44,469 INFO 11760 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:15:44 GMT+0800 (GMT+08:00)
+2021-01-27 17:15:44,483 INFO 11760 [egg:core] dump config after ready, 11ms
+2021-01-27 17:16:43,119 INFO 19184 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:16:43,192 INFO 19184 [egg-multipart] stream mode enable
+2021-01-27 17:16:43,193 INFO 19184 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:16:43,440 INFO 19184 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:16:43,443 INFO 19184 [egg-security] use methodnoallow middleware
+2021-01-27 17:16:43,444 INFO 19184 [egg-security] use noopen middleware
+2021-01-27 17:16:43,445 INFO 19184 [egg-security] use nosniff middleware
+2021-01-27 17:16:43,445 INFO 19184 [egg-security] use xssProtection middleware
+2021-01-27 17:16:43,446 INFO 19184 [egg-security] use xframe middleware
+2021-01-27 17:16:43,447 INFO 19184 [egg-security] use dta middleware
+2021-01-27 17:16:43,447 INFO 19184 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:16:43,463 INFO 19184 [egg:core] dump config after load, 8ms
+2021-01-27 17:16:43,491 INFO 19184 [egg-watcher:application] watcher start success
+2021-01-27 17:16:43,498 INFO 19184 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:16:43 GMT+0800 (GMT+08:00)
+2021-01-27 17:16:43,514 INFO 19184 [egg:core] dump config after ready, 14ms
+2021-01-27 17:16:46,875 INFO 16800 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:16:46,911 INFO 16800 [egg-multipart] stream mode enable
+2021-01-27 17:16:46,911 INFO 16800 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:16:47,082 INFO 16800 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:16:47,086 INFO 16800 [egg-security] use methodnoallow middleware
+2021-01-27 17:16:47,087 INFO 16800 [egg-security] use noopen middleware
+2021-01-27 17:16:47,088 INFO 16800 [egg-security] use nosniff middleware
+2021-01-27 17:16:47,089 INFO 16800 [egg-security] use xssProtection middleware
+2021-01-27 17:16:47,089 INFO 16800 [egg-security] use xframe middleware
+2021-01-27 17:16:47,090 INFO 16800 [egg-security] use dta middleware
+2021-01-27 17:16:47,090 INFO 16800 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:16:47,104 INFO 16800 [egg:core] dump config after load, 7ms
+2021-01-27 17:16:47,129 INFO 16800 [egg-watcher:application] watcher start success
+2021-01-27 17:16:47,133 INFO 16800 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:16:47 GMT+0800 (GMT+08:00)
+2021-01-27 17:16:47,144 INFO 16800 [egg:core] dump config after ready, 8ms
+2021-01-27 17:16:51,180 INFO 15012 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:16:51,229 INFO 15012 [egg-multipart] stream mode enable
+2021-01-27 17:16:51,230 INFO 15012 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:16:51,416 INFO 15012 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:16:51,419 INFO 15012 [egg-security] use methodnoallow middleware
+2021-01-27 17:16:51,420 INFO 15012 [egg-security] use noopen middleware
+2021-01-27 17:16:51,421 INFO 15012 [egg-security] use nosniff middleware
+2021-01-27 17:16:51,422 INFO 15012 [egg-security] use xssProtection middleware
+2021-01-27 17:16:51,423 INFO 15012 [egg-security] use xframe middleware
+2021-01-27 17:16:51,424 INFO 15012 [egg-security] use dta middleware
+2021-01-27 17:16:51,424 INFO 15012 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:16:51,438 INFO 15012 [egg:core] dump config after load, 6ms
+2021-01-27 17:16:51,460 INFO 15012 [egg-watcher:application] watcher start success
+2021-01-27 17:16:51,466 INFO 15012 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:16:51 GMT+0800 (GMT+08:00)
+2021-01-27 17:16:51,476 INFO 15012 [egg:core] dump config after ready, 8ms
+2021-01-27 17:17:13,910 INFO 13496 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:17:13,960 INFO 13496 [egg-multipart] stream mode enable
+2021-01-27 17:17:13,962 INFO 13496 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:17:14,161 INFO 13496 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:17:14,164 INFO 13496 [egg-security] use methodnoallow middleware
+2021-01-27 17:17:14,164 INFO 13496 [egg-security] use noopen middleware
+2021-01-27 17:17:14,165 INFO 13496 [egg-security] use nosniff middleware
+2021-01-27 17:17:14,166 INFO 13496 [egg-security] use xssProtection middleware
+2021-01-27 17:17:14,167 INFO 13496 [egg-security] use xframe middleware
+2021-01-27 17:17:14,167 INFO 13496 [egg-security] use dta middleware
+2021-01-27 17:17:14,167 INFO 13496 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:17:14,183 INFO 13496 [egg:core] dump config after load, 8ms
+2021-01-27 17:17:14,204 INFO 13496 [egg-watcher:application] watcher start success
+2021-01-27 17:17:14,208 INFO 13496 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:17:14 GMT+0800 (GMT+08:00)
+2021-01-27 17:17:14,221 INFO 13496 [egg:core] dump config after ready, 11ms
+2021-01-27 17:17:30,050 INFO 864 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:17:30,091 INFO 864 [egg-multipart] stream mode enable
+2021-01-27 17:17:30,092 INFO 864 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:17:30,282 INFO 864 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:17:30,285 INFO 864 [egg-security] use methodnoallow middleware
+2021-01-27 17:17:30,286 INFO 864 [egg-security] use noopen middleware
+2021-01-27 17:17:30,287 INFO 864 [egg-security] use nosniff middleware
+2021-01-27 17:17:30,288 INFO 864 [egg-security] use xssProtection middleware
+2021-01-27 17:17:30,289 INFO 864 [egg-security] use xframe middleware
+2021-01-27 17:17:30,289 INFO 864 [egg-security] use dta middleware
+2021-01-27 17:17:30,289 INFO 864 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:17:30,303 INFO 864 [egg:core] dump config after load, 6ms
+2021-01-27 17:17:30,323 INFO 864 [egg-watcher:application] watcher start success
+2021-01-27 17:17:30,326 INFO 864 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:17:30 GMT+0800 (GMT+08:00)
+2021-01-27 17:17:30,340 INFO 864 [egg:core] dump config after ready, 11ms
+2021-01-27 17:18:56,760 INFO 5032 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:18:56,798 INFO 5032 [egg-multipart] stream mode enable
+2021-01-27 17:18:56,798 INFO 5032 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:18:56,969 INFO 5032 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:18:56,972 INFO 5032 [egg-security] use methodnoallow middleware
+2021-01-27 17:18:56,973 INFO 5032 [egg-security] use noopen middleware
+2021-01-27 17:18:56,973 INFO 5032 [egg-security] use nosniff middleware
+2021-01-27 17:18:56,974 INFO 5032 [egg-security] use xssProtection middleware
+2021-01-27 17:18:56,975 INFO 5032 [egg-security] use xframe middleware
+2021-01-27 17:18:56,975 INFO 5032 [egg-security] use dta middleware
+2021-01-27 17:18:56,976 INFO 5032 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:18:56,990 INFO 5032 [egg:core] dump config after load, 6ms
+2021-01-27 17:18:57,011 INFO 5032 [egg-watcher:application] watcher start success
+2021-01-27 17:18:57,013 INFO 5032 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:18:57 GMT+0800 (GMT+08:00)
+2021-01-27 17:18:57,026 INFO 5032 [egg:core] dump config after ready, 11ms
+2021-01-27 17:19:03,379 INFO 9548 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:19:03,419 INFO 9548 [egg-multipart] stream mode enable
+2021-01-27 17:19:03,419 INFO 9548 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:19:03,584 INFO 9548 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:19:03,587 INFO 9548 [egg-security] use methodnoallow middleware
+2021-01-27 17:19:03,588 INFO 9548 [egg-security] use noopen middleware
+2021-01-27 17:19:03,589 INFO 9548 [egg-security] use nosniff middleware
+2021-01-27 17:19:03,590 INFO 9548 [egg-security] use xssProtection middleware
+2021-01-27 17:19:03,591 INFO 9548 [egg-security] use xframe middleware
+2021-01-27 17:19:03,591 INFO 9548 [egg-security] use dta middleware
+2021-01-27 17:19:03,591 INFO 9548 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:19:03,606 INFO 9548 [egg:core] dump config after load, 6ms
+2021-01-27 17:19:03,628 INFO 9548 [egg-watcher:application] watcher start success
+2021-01-27 17:19:03,631 INFO 9548 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:19:03 GMT+0800 (GMT+08:00)
+2021-01-27 17:19:03,646 INFO 9548 [egg:core] dump config after ready, 12ms
+2021-01-27 17:19:36,939 INFO 14952 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:19:36,997 INFO 14952 [egg-multipart] stream mode enable
+2021-01-27 17:19:36,997 INFO 14952 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:19:37,295 INFO 14952 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:19:37,299 INFO 14952 [egg-security] use methodnoallow middleware
+2021-01-27 17:19:37,300 INFO 14952 [egg-security] use noopen middleware
+2021-01-27 17:19:37,301 INFO 14952 [egg-security] use nosniff middleware
+2021-01-27 17:19:37,302 INFO 14952 [egg-security] use xssProtection middleware
+2021-01-27 17:19:37,302 INFO 14952 [egg-security] use xframe middleware
+2021-01-27 17:19:37,303 INFO 14952 [egg-security] use dta middleware
+2021-01-27 17:19:37,304 INFO 14952 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:19:37,319 INFO 14952 [egg:core] dump config after load, 6ms
+2021-01-27 17:19:37,344 INFO 14952 [egg-watcher:application] watcher start success
+2021-01-27 17:19:37,347 INFO 14952 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:19:37 GMT+0800 (GMT+08:00)
+2021-01-27 17:19:37,361 INFO 14952 [egg:core] dump config after ready, 11ms
+2021-01-27 17:20:45,314 INFO 360 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 17:20:45,368 INFO 360 [egg-multipart] stream mode enable
+2021-01-27 17:20:45,369 INFO 360 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 17:20:45,600 INFO 360 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 17:20:45,605 INFO 360 [egg-security] use methodnoallow middleware
+2021-01-27 17:20:45,605 INFO 360 [egg-security] use noopen middleware
+2021-01-27 17:20:45,606 INFO 360 [egg-security] use nosniff middleware
+2021-01-27 17:20:45,607 INFO 360 [egg-security] use xssProtection middleware
+2021-01-27 17:20:45,608 INFO 360 [egg-security] use xframe middleware
+2021-01-27 17:20:45,608 INFO 360 [egg-security] use dta middleware
+2021-01-27 17:20:45,608 INFO 360 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 17:20:45,626 INFO 360 [egg:core] dump config after load, 6ms
+2021-01-27 17:20:45,656 INFO 360 [egg-watcher:application] watcher start success
+2021-01-27 17:20:45,661 INFO 360 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 17:20:45 GMT+0800 (GMT+08:00)
+2021-01-27 17:20:45,675 INFO 360 [egg:core] dump config after ready, 11ms
+2021-01-27 18:00:36,211 INFO 5720 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:00:36,383 INFO 5720 [egg-multipart] stream mode enable
+2021-01-27 18:00:36,384 INFO 5720 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:00:36,636 INFO 5720 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:00:36,642 INFO 5720 [egg-security] use methodnoallow middleware
+2021-01-27 18:00:36,643 INFO 5720 [egg-security] use noopen middleware
+2021-01-27 18:00:36,644 INFO 5720 [egg-security] use nosniff middleware
+2021-01-27 18:00:36,645 INFO 5720 [egg-security] use xssProtection middleware
+2021-01-27 18:00:36,646 INFO 5720 [egg-security] use xframe middleware
+2021-01-27 18:00:36,646 INFO 5720 [egg-security] use dta middleware
+2021-01-27 18:00:36,646 INFO 5720 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:00:36,662 INFO 5720 [egg:core] dump config after load, 8ms
+2021-01-27 18:00:36,687 INFO 5720 [egg-watcher:application] watcher start success
+2021-01-27 18:00:37,019 INFO 5720 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:00:37 GMT+0800 (GMT+08:00)
+2021-01-27 18:00:37,040 INFO 5720 [egg:core] dump config after ready, 17ms
+2021-01-27 18:01:33,092 INFO 10276 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:01:33,156 INFO 10276 [egg-multipart] stream mode enable
+2021-01-27 18:01:33,157 INFO 10276 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:01:33,368 INFO 10276 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:01:33,371 INFO 10276 [egg-security] use methodnoallow middleware
+2021-01-27 18:01:33,372 INFO 10276 [egg-security] use noopen middleware
+2021-01-27 18:01:33,373 INFO 10276 [egg-security] use nosniff middleware
+2021-01-27 18:01:33,374 INFO 10276 [egg-security] use xssProtection middleware
+2021-01-27 18:01:33,374 INFO 10276 [egg-security] use xframe middleware
+2021-01-27 18:01:33,375 INFO 10276 [egg-security] use dta middleware
+2021-01-27 18:01:33,375 INFO 10276 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:01:33,389 INFO 10276 [egg:core] dump config after load, 7ms
+2021-01-27 18:01:33,409 INFO 10276 [egg-watcher:application] watcher start success
+2021-01-27 18:01:33,412 INFO 10276 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:01:33 GMT+0800 (GMT+08:00)
+2021-01-27 18:01:33,425 INFO 10276 [egg:core] dump config after ready, 11ms
+2021-01-27 18:02:50,701 INFO 15668 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:02:50,746 INFO 15668 [egg-multipart] stream mode enable
+2021-01-27 18:02:50,748 INFO 15668 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:02:51,102 INFO 15668 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:02:51,108 INFO 15668 [egg-security] use methodnoallow middleware
+2021-01-27 18:02:51,109 INFO 15668 [egg-security] use noopen middleware
+2021-01-27 18:02:51,110 INFO 15668 [egg-security] use nosniff middleware
+2021-01-27 18:02:51,111 INFO 15668 [egg-security] use xssProtection middleware
+2021-01-27 18:02:51,112 INFO 15668 [egg-security] use xframe middleware
+2021-01-27 18:02:51,112 INFO 15668 [egg-security] use dta middleware
+2021-01-27 18:02:51,112 INFO 15668 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:02:51,128 INFO 15668 [egg:core] dump config after load, 6ms
+2021-01-27 18:02:51,155 INFO 15668 [egg-watcher:application] watcher start success
+2021-01-27 18:02:51,158 INFO 15668 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:02:51 GMT+0800 (GMT+08:00)
+2021-01-27 18:02:51,179 INFO 15668 [egg:core] dump config after ready, 18ms
+2021-01-27 18:02:52,559 INFO 8300 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:02:52,615 INFO 8300 [egg-multipart] stream mode enable
+2021-01-27 18:02:52,615 INFO 8300 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:02:52,833 INFO 8300 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:02:52,837 INFO 8300 [egg-security] use methodnoallow middleware
+2021-01-27 18:02:52,838 INFO 8300 [egg-security] use noopen middleware
+2021-01-27 18:02:52,839 INFO 8300 [egg-security] use nosniff middleware
+2021-01-27 18:02:52,839 INFO 8300 [egg-security] use xssProtection middleware
+2021-01-27 18:02:52,840 INFO 8300 [egg-security] use xframe middleware
+2021-01-27 18:02:52,841 INFO 8300 [egg-security] use dta middleware
+2021-01-27 18:02:52,841 INFO 8300 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:02:52,856 INFO 8300 [egg:core] dump config after load, 7ms
+2021-01-27 18:02:52,880 INFO 8300 [egg-watcher:application] watcher start success
+2021-01-27 18:02:52,883 INFO 8300 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:02:52 GMT+0800 (GMT+08:00)
+2021-01-27 18:02:52,898 INFO 8300 [egg:core] dump config after ready, 11ms
+2021-01-27 18:02:54,382 INFO 20000 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:02:54,430 INFO 20000 [egg-multipart] stream mode enable
+2021-01-27 18:02:54,430 INFO 20000 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:02:54,603 INFO 20000 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:02:54,606 INFO 20000 [egg-security] use methodnoallow middleware
+2021-01-27 18:02:54,607 INFO 20000 [egg-security] use noopen middleware
+2021-01-27 18:02:54,608 INFO 20000 [egg-security] use nosniff middleware
+2021-01-27 18:02:54,609 INFO 20000 [egg-security] use xssProtection middleware
+2021-01-27 18:02:54,610 INFO 20000 [egg-security] use xframe middleware
+2021-01-27 18:02:54,611 INFO 20000 [egg-security] use dta middleware
+2021-01-27 18:02:54,611 INFO 20000 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:02:54,626 INFO 20000 [egg:core] dump config after load, 7ms
+2021-01-27 18:02:54,653 INFO 20000 [egg-watcher:application] watcher start success
+2021-01-27 18:02:54,658 INFO 20000 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:02:54 GMT+0800 (GMT+08:00)
+2021-01-27 18:02:54,674 INFO 20000 [egg:core] dump config after ready, 14ms
+2021-01-27 18:04:06,363 INFO 14532 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:04:06,471 INFO 14532 [egg-multipart] stream mode enable
+2021-01-27 18:04:06,473 INFO 14532 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:04:06,766 INFO 14532 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:04:06,792 INFO 14532 [egg-security] use methodnoallow middleware
+2021-01-27 18:04:06,793 INFO 14532 [egg-security] use noopen middleware
+2021-01-27 18:04:06,794 INFO 14532 [egg-security] use nosniff middleware
+2021-01-27 18:04:06,795 INFO 14532 [egg-security] use xssProtection middleware
+2021-01-27 18:04:06,796 INFO 14532 [egg-security] use xframe middleware
+2021-01-27 18:04:06,797 INFO 14532 [egg-security] use dta middleware
+2021-01-27 18:04:06,797 INFO 14532 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:04:06,815 INFO 14532 [egg:core] dump config after load, 6ms
+2021-01-27 18:04:06,898 INFO 14532 [egg-watcher:application] watcher start success
+2021-01-27 18:04:06,910 INFO 14532 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:04:06 GMT+0800 (GMT+08:00)
+2021-01-27 18:04:06,922 INFO 14532 [egg:core] dump config after ready, 10ms
+2021-01-27 18:04:07,934 INFO 14392 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:04:07,976 INFO 14392 [egg-multipart] stream mode enable
+2021-01-27 18:04:07,976 INFO 14392 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:04:08,212 INFO 14392 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:04:08,218 INFO 14392 [egg-security] use methodnoallow middleware
+2021-01-27 18:04:08,219 INFO 14392 [egg-security] use noopen middleware
+2021-01-27 18:04:08,220 INFO 14392 [egg-security] use nosniff middleware
+2021-01-27 18:04:08,220 INFO 14392 [egg-security] use xssProtection middleware
+2021-01-27 18:04:08,221 INFO 14392 [egg-security] use xframe middleware
+2021-01-27 18:04:08,222 INFO 14392 [egg-security] use dta middleware
+2021-01-27 18:04:08,222 INFO 14392 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:04:08,237 INFO 14392 [egg:core] dump config after load, 8ms
+2021-01-27 18:04:08,261 INFO 14392 [egg-watcher:application] watcher start success
+2021-01-27 18:04:08,266 INFO 14392 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:04:08 GMT+0800 (GMT+08:00)
+2021-01-27 18:04:08,281 INFO 14392 [egg:core] dump config after ready, 13ms
+2021-01-27 18:05:02,518 INFO 16100 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:05:02,582 INFO 16100 [egg-multipart] stream mode enable
+2021-01-27 18:05:02,582 INFO 16100 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:05:02,815 INFO 16100 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:05:02,819 INFO 16100 [egg-security] use methodnoallow middleware
+2021-01-27 18:05:02,823 INFO 16100 [egg-security] use noopen middleware
+2021-01-27 18:05:02,825 INFO 16100 [egg-security] use nosniff middleware
+2021-01-27 18:05:02,826 INFO 16100 [egg-security] use xssProtection middleware
+2021-01-27 18:05:02,826 INFO 16100 [egg-security] use xframe middleware
+2021-01-27 18:05:02,827 INFO 16100 [egg-security] use dta middleware
+2021-01-27 18:05:02,827 INFO 16100 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:05:02,847 INFO 16100 [egg:core] dump config after load, 8ms
+2021-01-27 18:05:02,892 INFO 16100 [egg-watcher:application] watcher start success
+2021-01-27 18:05:02,897 INFO 16100 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:05:02 GMT+0800 (GMT+08:00)
+2021-01-27 18:05:02,913 INFO 16100 [egg:core] dump config after ready, 13ms
+2021-01-27 18:06:01,728 INFO 20064 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:06:01,805 INFO 20064 [egg-multipart] stream mode enable
+2021-01-27 18:06:01,806 INFO 20064 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:06:02,020 INFO 20064 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:06:02,023 INFO 20064 [egg-security] use methodnoallow middleware
+2021-01-27 18:06:02,023 INFO 20064 [egg-security] use noopen middleware
+2021-01-27 18:06:02,024 INFO 20064 [egg-security] use nosniff middleware
+2021-01-27 18:06:02,025 INFO 20064 [egg-security] use xssProtection middleware
+2021-01-27 18:06:02,026 INFO 20064 [egg-security] use xframe middleware
+2021-01-27 18:06:02,027 INFO 20064 [egg-security] use dta middleware
+2021-01-27 18:06:02,027 INFO 20064 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:06:02,042 INFO 20064 [egg:core] dump config after load, 7ms
+2021-01-27 18:06:02,067 INFO 20064 [egg-watcher:application] watcher start success
+2021-01-27 18:06:02,070 INFO 20064 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:06:02 GMT+0800 (GMT+08:00)
+2021-01-27 18:06:02,083 INFO 20064 [egg:core] dump config after ready, 10ms
+2021-01-27 18:07:03,065 INFO 19964 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:07:03,113 INFO 19964 [egg-multipart] stream mode enable
+2021-01-27 18:07:03,114 INFO 19964 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:07:03,346 INFO 19964 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:07:03,353 INFO 19964 [egg-security] use methodnoallow middleware
+2021-01-27 18:07:03,354 INFO 19964 [egg-security] use noopen middleware
+2021-01-27 18:07:03,355 INFO 19964 [egg-security] use nosniff middleware
+2021-01-27 18:07:03,356 INFO 19964 [egg-security] use xssProtection middleware
+2021-01-27 18:07:03,357 INFO 19964 [egg-security] use xframe middleware
+2021-01-27 18:07:03,357 INFO 19964 [egg-security] use dta middleware
+2021-01-27 18:07:03,357 INFO 19964 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:07:03,391 INFO 19964 [egg:core] dump config after load, 18ms
+2021-01-27 18:07:03,425 INFO 19964 [egg-watcher:application] watcher start success
+2021-01-27 18:07:03,429 INFO 19964 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:07:03 GMT+0800 (GMT+08:00)
+2021-01-27 18:07:03,446 INFO 19964 [egg:core] dump config after ready, 13ms
+2021-01-27 18:07:40,664 INFO 1716 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:07:40,708 INFO 1716 [egg-multipart] stream mode enable
+2021-01-27 18:07:40,709 INFO 1716 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:07:40,881 INFO 1716 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:07:40,884 INFO 1716 [egg-security] use methodnoallow middleware
+2021-01-27 18:07:40,885 INFO 1716 [egg-security] use noopen middleware
+2021-01-27 18:07:40,886 INFO 1716 [egg-security] use nosniff middleware
+2021-01-27 18:07:40,887 INFO 1716 [egg-security] use xssProtection middleware
+2021-01-27 18:07:40,887 INFO 1716 [egg-security] use xframe middleware
+2021-01-27 18:07:40,888 INFO 1716 [egg-security] use dta middleware
+2021-01-27 18:07:40,888 INFO 1716 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:07:40,902 INFO 1716 [egg:core] dump config after load, 6ms
+2021-01-27 18:07:40,924 INFO 1716 [egg-watcher:application] watcher start success
+2021-01-27 18:07:40,926 INFO 1716 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:07:40 GMT+0800 (GMT+08:00)
+2021-01-27 18:07:40,938 INFO 1716 [egg:core] dump config after ready, 10ms
+2021-01-27 18:09:10,667 INFO 11752 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:09:10,725 INFO 11752 [egg-multipart] stream mode enable
+2021-01-27 18:09:10,726 INFO 11752 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:09:11,126 INFO 11752 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:09:11,130 INFO 11752 [egg-security] use methodnoallow middleware
+2021-01-27 18:09:11,131 INFO 11752 [egg-security] use noopen middleware
+2021-01-27 18:09:11,132 INFO 11752 [egg-security] use nosniff middleware
+2021-01-27 18:09:11,133 INFO 11752 [egg-security] use xssProtection middleware
+2021-01-27 18:09:11,133 INFO 11752 [egg-security] use xframe middleware
+2021-01-27 18:09:11,134 INFO 11752 [egg-security] use dta middleware
+2021-01-27 18:09:11,134 INFO 11752 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:09:11,153 INFO 11752 [egg:core] dump config after load, 7ms
+2021-01-27 18:09:11,180 INFO 11752 [egg-watcher:application] watcher start success
+2021-01-27 18:09:11,184 INFO 11752 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:09:11 GMT+0800 (GMT+08:00)
+2021-01-27 18:09:11,199 INFO 11752 [egg:core] dump config after ready, 10ms
+2021-01-27 18:10:19,003 INFO 4324 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:10:19,049 INFO 4324 [egg-multipart] stream mode enable
+2021-01-27 18:10:19,049 INFO 4324 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:10:19,281 INFO 4324 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:10:19,284 INFO 4324 [egg-security] use methodnoallow middleware
+2021-01-27 18:10:19,285 INFO 4324 [egg-security] use noopen middleware
+2021-01-27 18:10:19,286 INFO 4324 [egg-security] use nosniff middleware
+2021-01-27 18:10:19,287 INFO 4324 [egg-security] use xssProtection middleware
+2021-01-27 18:10:19,287 INFO 4324 [egg-security] use xframe middleware
+2021-01-27 18:10:19,288 INFO 4324 [egg-security] use dta middleware
+2021-01-27 18:10:19,288 INFO 4324 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:10:19,311 INFO 4324 [egg:core] dump config after load, 10ms
+2021-01-27 18:10:19,337 INFO 4324 [egg-watcher:application] watcher start success
+2021-01-27 18:10:19,342 INFO 4324 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:10:19 GMT+0800 (GMT+08:00)
+2021-01-27 18:10:19,356 INFO 4324 [egg:core] dump config after ready, 11ms
+2021-01-27 18:11:25,076 INFO 404 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:11:25,124 INFO 404 [egg-multipart] stream mode enable
+2021-01-27 18:11:25,125 INFO 404 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:11:25,344 INFO 404 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:11:25,347 INFO 404 [egg-security] use methodnoallow middleware
+2021-01-27 18:11:25,347 INFO 404 [egg-security] use noopen middleware
+2021-01-27 18:11:25,349 INFO 404 [egg-security] use nosniff middleware
+2021-01-27 18:11:25,349 INFO 404 [egg-security] use xssProtection middleware
+2021-01-27 18:11:25,350 INFO 404 [egg-security] use xframe middleware
+2021-01-27 18:11:25,351 INFO 404 [egg-security] use dta middleware
+2021-01-27 18:11:25,351 INFO 404 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:11:25,365 INFO 404 [egg:core] dump config after load, 6ms
+2021-01-27 18:11:25,388 INFO 404 [egg-watcher:application] watcher start success
+2021-01-27 18:11:25,390 INFO 404 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:11:25 GMT+0800 (GMT+08:00)
+2021-01-27 18:11:25,405 INFO 404 [egg:core] dump config after ready, 12ms
+2021-01-27 18:14:44,930 INFO 9892 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:14:45,060 INFO 9892 [egg-multipart] stream mode enable
+2021-01-27 18:14:45,061 INFO 9892 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:14:45,329 INFO 9892 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:14:45,332 INFO 9892 [egg-security] use methodnoallow middleware
+2021-01-27 18:14:45,333 INFO 9892 [egg-security] use noopen middleware
+2021-01-27 18:14:45,334 INFO 9892 [egg-security] use nosniff middleware
+2021-01-27 18:14:45,335 INFO 9892 [egg-security] use xssProtection middleware
+2021-01-27 18:14:45,336 INFO 9892 [egg-security] use xframe middleware
+2021-01-27 18:14:45,336 INFO 9892 [egg-security] use dta middleware
+2021-01-27 18:14:45,336 INFO 9892 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:14:45,351 INFO 9892 [egg:core] dump config after load, 6ms
+2021-01-27 18:14:45,380 INFO 9892 [egg-watcher:application] watcher start success
+2021-01-27 18:14:45,383 INFO 9892 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:14:45 GMT+0800 (GMT+08:00)
+2021-01-27 18:14:45,401 INFO 9892 [egg:core] dump config after ready, 13ms
+2021-01-27 18:14:47,105 INFO 7136 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:14:47,142 INFO 7136 [egg-multipart] stream mode enable
+2021-01-27 18:14:47,143 INFO 7136 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:14:47,323 INFO 7136 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:14:47,326 INFO 7136 [egg-security] use methodnoallow middleware
+2021-01-27 18:14:47,327 INFO 7136 [egg-security] use noopen middleware
+2021-01-27 18:14:47,328 INFO 7136 [egg-security] use nosniff middleware
+2021-01-27 18:14:47,329 INFO 7136 [egg-security] use xssProtection middleware
+2021-01-27 18:14:47,329 INFO 7136 [egg-security] use xframe middleware
+2021-01-27 18:14:47,330 INFO 7136 [egg-security] use dta middleware
+2021-01-27 18:14:47,330 INFO 7136 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:14:47,344 INFO 7136 [egg:core] dump config after load, 6ms
+2021-01-27 18:14:47,366 INFO 7136 [egg-watcher:application] watcher start success
+2021-01-27 18:14:47,370 INFO 7136 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:14:47 GMT+0800 (GMT+08:00)
+2021-01-27 18:14:47,385 INFO 7136 [egg:core] dump config after ready, 13ms
+2021-01-27 18:21:02,058 INFO 19236 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:21:02,116 INFO 19236 [egg-multipart] stream mode enable
+2021-01-27 18:21:02,118 INFO 19236 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:21:02,357 INFO 19236 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:21:02,360 INFO 19236 [egg-security] use methodnoallow middleware
+2021-01-27 18:21:02,361 INFO 19236 [egg-security] use noopen middleware
+2021-01-27 18:21:02,362 INFO 19236 [egg-security] use nosniff middleware
+2021-01-27 18:21:02,363 INFO 19236 [egg-security] use xssProtection middleware
+2021-01-27 18:21:02,364 INFO 19236 [egg-security] use xframe middleware
+2021-01-27 18:21:02,365 INFO 19236 [egg-security] use dta middleware
+2021-01-27 18:21:02,365 INFO 19236 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:21:02,386 INFO 19236 [egg:core] dump config after load, 9ms
+2021-01-27 18:21:02,410 INFO 19236 [egg-watcher:application] watcher start success
+2021-01-27 18:21:02,414 INFO 19236 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:21:02 GMT+0800 (GMT+08:00)
+2021-01-27 18:21:02,430 INFO 19236 [egg:core] dump config after ready, 13ms
+2021-01-27 18:21:04,119 INFO 6192 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:21:04,170 INFO 6192 [egg-multipart] stream mode enable
+2021-01-27 18:21:04,171 INFO 6192 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:21:04,425 INFO 6192 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:21:04,428 INFO 6192 [egg-security] use methodnoallow middleware
+2021-01-27 18:21:04,429 INFO 6192 [egg-security] use noopen middleware
+2021-01-27 18:21:04,430 INFO 6192 [egg-security] use nosniff middleware
+2021-01-27 18:21:04,431 INFO 6192 [egg-security] use xssProtection middleware
+2021-01-27 18:21:04,460 INFO 6192 [egg-security] use xframe middleware
+2021-01-27 18:21:04,462 INFO 6192 [egg-security] use dta middleware
+2021-01-27 18:21:04,462 INFO 6192 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:21:04,482 INFO 6192 [egg:core] dump config after load, 7ms
+2021-01-27 18:21:04,521 INFO 6192 [egg-watcher:application] watcher start success
+2021-01-27 18:21:04,525 INFO 6192 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:21:04 GMT+0800 (GMT+08:00)
+2021-01-27 18:21:04,553 INFO 6192 [egg:core] dump config after ready, 25ms
+2021-01-27 18:23:06,609 INFO 14380 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggserver-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-27 18:23:06,674 INFO 14380 [egg-multipart] stream mode enable
+2021-01-27 18:23:06,675 INFO 14380 [egg-mysql] connecting root@localhost:3306/demo_server
+2021-01-27 18:23:06,947 INFO 14380 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\demo_server\app\public
+2021-01-27 18:23:06,951 INFO 14380 [egg-security] use methodnoallow middleware
+2021-01-27 18:23:06,952 INFO 14380 [egg-security] use noopen middleware
+2021-01-27 18:23:06,954 INFO 14380 [egg-security] use nosniff middleware
+2021-01-27 18:23:06,955 INFO 14380 [egg-security] use xssProtection middleware
+2021-01-27 18:23:06,956 INFO 14380 [egg-security] use xframe middleware
+2021-01-27 18:23:06,957 INFO 14380 [egg-security] use dta middleware
+2021-01-27 18:23:06,957 INFO 14380 [egg-security] compose 6 middlewares into one security middleware
+2021-01-27 18:23:07,034 INFO 14380 [egg:core] dump config after load, 10ms
+2021-01-27 18:23:07,057 INFO 14380 [egg-watcher:application] watcher start success
+2021-01-27 18:23:07,086 INFO 14380 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jan 27 2021 18:23:07 GMT+0800 (GMT+08:00)
+2021-01-27 18:23:07,102 INFO 14380 [egg:core] dump config after ready, 14ms
+2021-01-27 18:25:22,071 WARN 14380 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-27 18:25:22,097 WARN 14380 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-27 18:41:28,588 WARN 14380 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-27 21:46:53,723 WARN 14380 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-01-27 21:46:53,725 WARN 14380 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-28 08:15:24,745 WARN 14380 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-28 08:15:25,382 INFO 14380 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=C:\Users\Administrator\Desktop\demo_server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\egg-multipart-tmp\\eggserver"
+2021-01-28 08:15:25,428 INFO 14380 [egg-logrotator] start remove C:\Users\Administrator\Desktop\demo_server\logs\eggserver files: common-error.log.2020-11-20, common-error.log.2020-11-21, common-error.log.2020-11-22, common-error.log.2020-11-23, egg-agent.log.2020-11-20, egg-agent.log.2020-11-21, egg-agent.log.2020-11-22, egg-agent.log.2020-11-23, egg-schedule.log.2020-11-20, egg-schedule.log.2020-11-21, egg-schedule.log.2020-11-22, egg-schedule.log.2020-11-23, egg-web.log.2020-11-20, egg-web.log.2020-11-21, egg-web.log.2020-11-22, egg-web.log.2020-11-23, eggserver-web.log.2020-11-20, eggserver-web.log.2020-11-21, eggserver-web.log.2020-11-22, eggserver-web.log.2020-11-23
+2021-01-28 08:15:25,587 INFO 14380 [egg-logrotator] clean all log before 31 days
+2021-01-28 08:15:25,601 INFO 14380 [-/127.0.0.1/-/220ms SCHEDULE /__schedule?path=C:\Users\Administrator\Desktop\demo_server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-01-28 08:15:25,999 INFO 14380 [egg-logrotator] broadcast log-reload
+2021-01-28 08:15:26,006 INFO 14380 [egg-logrotator] rotate files success by DayRotator, files ["C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver\\common-error.log -> C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver\\common-error.log.2021-01-27","C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver\\eggserver-web.log -> C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver\\eggserver-web.log.2021-01-27","C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver\\egg-web.log -> C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver\\egg-web.log.2021-01-27","C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver\\egg-schedule.log -> C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver\\egg-schedule.log.2021-01-27","C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver\\egg-agent.log -> C:\\Users\\Administrator\\Desktop\\demo_server\\logs\\eggserver\\egg-agent.log.2021-01-27"]

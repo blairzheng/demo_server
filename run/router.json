@@ -5,68 +5,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/login",
-    "regexp": "/^\\/login(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/logout",
-    "regexp": "/^\\/logout(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/mail",
-    "regexp": "/^\\/mail(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/verify",
-    "regexp": "/^\\/verify(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
     "path": "/user/add",
     "regexp": "/^\\/user\\/add(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/user/update",
-    "regexp": "/^\\/user\\/update(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -89,8 +29,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/user/updateMail",
-    "regexp": "/^\\/user\\/updateMail(?:\\/(?=$))?$/",
+    "path": "/user/update",
+    "regexp": "/^\\/user\\/update(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -113,8 +53,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/user/status",
-    "regexp": "/^\\/user\\/status(?:\\/(?=$))?$/",
+    "path": "/permission/add",
+    "regexp": "/^\\/permission\\/add(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -125,8 +65,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/user/getPassByMail",
-    "regexp": "/^\\/user\\/getPassByMail(?:\\/(?=$))?$/",
+    "path": "/permission/detele",
+    "regexp": "/^\\/permission\\/detele(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -137,8 +77,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/warnset/info",
-    "regexp": "/^\\/warnset\\/info(?:\\/(?=$))?$/",
+    "path": "/permission/update",
+    "regexp": "/^\\/permission\\/update(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -149,8 +89,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/warnset/updateinfo",
-    "regexp": "/^\\/warnset\\/updateinfo(?:\\/(?=$))?$/",
+    "path": "/permission/listPermission",
+    "regexp": "/^\\/permission\\/listPermission(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -161,8 +101,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/devices/list",
-    "regexp": "/^\\/devices\\/list(?:\\/(?=$))?$/",
+    "path": "/role/add",
+    "regexp": "/^\\/role\\/add(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -173,8 +113,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/devices/update",
-    "regexp": "/^\\/devices\\/update(?:\\/(?=$))?$/",
+    "path": "/role/detele",
+    "regexp": "/^\\/role\\/detele(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -185,8 +125,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/devices/allice",
-    "regexp": "/^\\/devices\\/allice(?:\\/(?=$))?$/",
+    "path": "/role/updateRoleName",
+    "regexp": "/^\\/role\\/updateRoleName(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -197,8 +137,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/devices/deviceIceGroup",
-    "regexp": "/^\\/devices\\/deviceIceGroup(?:\\/(?=$))?$/",
+    "path": "/role/maintainPermission",
+    "regexp": "/^\\/role\\/maintainPermission(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -209,8 +149,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/devices/info",
-    "regexp": "/^\\/devices\\/info(?:\\/(?=$))?$/",
+    "path": "/role/listRole",
+    "regexp": "/^\\/role\\/listRole(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -221,80 +161,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/mqtt/list",
-    "regexp": "/^\\/mqtt\\/list(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/mqtt/cur",
-    "regexp": "/^\\/mqtt\\/cur(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/warn/info",
-    "regexp": "/^\\/warn\\/info(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/warn/times",
-    "regexp": "/^\\/warn\\/times(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/system/info",
-    "regexp": "/^\\/system\\/info(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/system/update",
-    "regexp": "/^\\/system\\/update(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/dashboard/info",
-    "regexp": "/^\\/dashboard\\/info(?:\\/(?=$))?$/",
+    "path": "/role/getPermissionByRoleId",
+    "regexp": "/^\\/role\\/getPermissionByRoleId(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

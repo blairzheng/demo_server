@@ -1,294 +1,294 @@
 {
-  "keys": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
+  "keys": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
   "security": {
     "csrf": {
-      "enable": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
-      "type": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
+      "type": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
-      "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
-  "middleware": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
+  "middleware": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
   "errorHandler": {
-    "match": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js"
+    "match": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js"
   },
   "session": {
-    "key": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
-    "maxAge": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
-    "httpOnly": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
-    "encrypt": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
-    "renew": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js"
+    "key": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
+    "maxAge": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
+    "encrypt": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
+    "renew": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js"
   },
   "mysql": {
     "client": {
-      "host": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
-      "port": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
-      "user": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
-      "password": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
-      "database": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js"
+      "host": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
+      "port": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
+      "user": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
+      "password": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
+      "database": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js"
     },
-    "app": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
-    "agent": "D:\\energy-platform-project\\energy-platform-server\\config\\config.default.js",
+    "app": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
+    "agent": "C:\\Users\\Administrator\\Desktop\\demo_server\\config\\config.default.js",
     "default": {
-      "database": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-mysql\\config\\config.default.js",
-      "connectionLimit": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-mysql\\config\\config.default.js"
+      "database": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-mysql\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-static\\config\\config.default.js"
   },
   "view": {
-    "root": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "validate": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-validate\\config\\config.default.js",
-  "cors": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg-cors\\config\\config.default.js",
-  "env": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "name": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "cookies": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "maxIpsCount": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
+  "validate": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-validate\\config\\config.default.js",
+  "cors": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg-cors\\config\\config.default.js",
+  "env": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "name": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "version": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "description": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "main": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
+    "name": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "version": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "description": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "main": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "test": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "dev": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+      "test": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "dev": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "license": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
+    "author": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "license": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "await-stream-ready": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "dayjs": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "egg": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-cors": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-mysql": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-validate": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "nodemailer": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "stream-wormhole": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "svg-captcha": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+      "await-stream-ready": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "dayjs": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "egg": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "egg-validate": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "nodemailer": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "stream-wormhole": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "svg-captcha": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "baseDir": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "textLimit": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "strict": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
+    "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "depth": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
     },
-    "onerror": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+    "onerror": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
   },
   "logger": {
-    "dir": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "env": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "level": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
+    "dir": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "env": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "level": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "logging": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+    "enable": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "logging": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "port": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+      "path": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "port": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "D:\\energy-platform-project\\energy-platform-server\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "C:\\Users\\Administrator\\Desktop\\demo_server\\node_modules\\egg\\config\\config.default.js"
 }
