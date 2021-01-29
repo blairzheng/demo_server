@@ -289,3 +289,6 @@
 2021-01-29 17:34:08,788 INFO 22308 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\demo_server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2021-01-29 17:34:08,788 INFO 22308 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\demo_server\node_modules\egg-logrotator\app\schedule\clean_log.js
 2021-01-29 17:34:08,788 INFO 22308 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\demo_server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-29 17:52:34,143 INFO 11816 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\demo_server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-29 17:52:34,143 INFO 11816 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\demo_server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-29 17:52:34,143 INFO 11816 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\demo_server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
